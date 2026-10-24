@@ -1,0 +1,98 @@
+/* تنسيق الخطوط والألوان العامة من مكان واحد */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    background-color: #f4f6f9;
+    direction: rtl;
+    text-align: right;
+    margin: 20px;
+}
+
+nav {
+    background-color: #1a252f;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+
+        nav a:hover {
+            color: #3498db;
+        }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #bdc3c7;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.car-details {
+    display: none;
+    background-color: #ecf0f1;
+    text-align: right;
+    padding: 10px;
+    font-size: 14px;
+}
+
+fieldset {
+    border: 2px solid #2c3e50;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 25px;
+    background-color: #ffffff;
+}
+
+legend {
+    font-weight: bold;
+    color: #2c3e50;
+    padding: 0 10px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="date"], input[type="email"] {
+    width: 250px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+input[type="button"], input[type="submit"] {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+    input[type="button"]:hover, input[type="submit"]:hover {
+        background-color: #219150;
+    }
